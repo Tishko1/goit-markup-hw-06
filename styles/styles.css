@@ -972,6 +972,15 @@ a {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.send-input:focus{
+  border: 1px solid var(--bg-color); 
+  
+}
+
+/* <symbol id="icon-icon-send" viewBox="0 0 32 32"> 
+<path   d="M32 0l-32 18 10.227 3.788 15.773-14.788-11.998 16.186 0.010 0.004-0.012-0.004v8.814l5.735-6.691 7.265 2.691 5-28z"></path>
+</symbol>*/
+
 .send-input::placeholder {
   padding-left: 16px;
   font-size: 16px;
@@ -980,7 +989,7 @@ a {
   display: flex;
 
   align-items: center;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--accent-text-color);
 }
 
 .send-wrap {
